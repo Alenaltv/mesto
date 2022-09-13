@@ -1,0 +1,5 @@
+.element__image {
+    background: #C4C4C4;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 10px 10px 0px 0px;
+}

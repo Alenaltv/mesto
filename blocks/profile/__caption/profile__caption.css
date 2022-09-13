@@ -1,0 +1,12 @@
+.profile__caption {
+    color: #FFFFFF;
+    max-width: 336px;
+    padding: 22px 0 25px 30px;
+}
+
+@media screen and (max-width: 720px) {
+    .profile__caption {
+        padding: 0;
+        max-width: 282px;
+    }
+}

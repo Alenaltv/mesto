@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./vendor/normalize.css">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>
+        Mesto
+    </title>
+</head>
+
+<body class="page">
+    <header class="header">
+        <img src="./image/logo.svg" class="header__logo" alt="логотип место">
+    </header>
+
+    <main>
+        <section class="profile">
+            <div class="profile__place">
+                <div class="profile__place-avatar">
+                    <img class="profile__avatar" src="./image/Avatar.png" alt="аватар">
+                </div>
+                <div class="profile__info">
+                    <div class="profile__caption">
+                        <h1 class="profile__title">Жак-Ив Кусто</h1>
+                        <p class="profile__subtitle">Исследователь океана</p>
+                    </div>
+                    <button class="profile__edit-button" type="button"></button>                    
+                </div>
+            </div>
+            <button class="profile__add-button" type="button"></button>   
+        </section>
+
+        <section class="elements"> 
+            <ul class="emenets__list">
+                <li class="elements__pic">
+                    <article class="element">
+                        <img class="element__image" src="./image/element_1.png" alt="фото Карачаевска">
+                        <div class="element__caption">
+                            <h3 class="element__title">Карачаевск</h3>
+                            <div class="elements__like-container">
+                                <button class="elements__like-button" type="button"></button>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li class="elements__pic">
+                    <article class="element">
+                        <img class="element__image" src="./image/elemet_2.png" alt="фото горы Эльбрус">
+                        <div class="element__caption">
+                            <h3 class="element__title">Гора Эльбрус</h3>
+                            <div class="elements__like-container">
+                                <button class="elements__like-button" type="button"></button>
+                            </div>
+                        </div>
+                    </article>
+                </li>   
+                <li class="elements__pic">
+                    <article class="element">
+                        <img class="element__image" src="./image/element_3.png" alt="фото Домбая">
+                        <div class="element__caption">
+                            <h3 class="element__title">Домбай</h3>
+                            <div class="elements__like-container">
+                                <button class="elements__like-button" type="button"></button>
+                            </div>
+                        </div>
+                    </article>
+                </li> 
+                <li class="elements__pic">
+                    <article class="element">
+                        <img class="element__image" src="./image/element_4.png" alt="фото горы Эльбрус">
+                        <div class="element__caption">
+                            <h3 class="element__title">Гора Эльбрус</h3>
+                            <div class="elements__like-container">
+                                <button class="elements__like-button" type="button"></button>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li class="elements__pic">
+                    <article class="element">
+                        <img class="element__image" src="./image/element_5.png" alt="фото Домбая">
+                        <div class="element__caption">
+                            <h3 class="element__title">Домбай</h3>
+                            <div class="elements__like-container">
+                                <button class="elements__like-button" type="button"></button>
+                            </div>
+                        </div>
+                    </art>
+                </li>
+                <li class="elements__pic">
+                    <article class="element">
+                        <img class="element__image" src="./image/element_1.png" alt="фото Карачаево-Черкесии">
+                        <div class="element__caption">
+                            <h3 class="element__title">Карачаево-Ч...</h3>
+                            <div class="elements__like-container">
+                                <button class="elements__like-button" type="button"></button>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+    </main> 
+
+    <footer class="footer">
+        <p class="footer__copyright">
+            &copy;2020 Mesto Russia
+        </p>
+    </footer>
+
+    <section class="popup">
+        <div class="popup__container">
+            <form class="form edit-form" novalidate>
+                <h3 class="form__title">Редактировать профиль</h3>
+                <fieldset class="form__fieldset">
+                    <input class="form__input form__input-name" id="profile-name" type="text" required>
+                    <input class="form__input form__input-caption" id="profile-caption" type="text" required>
+                    <button class="form__submit-button popup__submit-button" type="submit">Сохранить</button>
+                </fieldset>
+                <!--    <img class="popup__icon" src="./image/close__icon.svg" alt="иконка закрыть окно"> -->
+                <button class="form__close-button popup__close-button" type="reset"></button>
+            </form>
+        </div>
+    </section>
+
+    <script src="./pages/script.js"></script>
+
+</body>
+</html>

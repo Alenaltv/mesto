@@ -1,0 +1,8 @@
+.element {
+    max-width: 282px;
+    position: relative;
+    border-radius: 10px;
+    justify-self: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
