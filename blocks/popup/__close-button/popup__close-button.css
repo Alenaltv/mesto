@@ -11,7 +11,7 @@
     background-color: #000000;
 }
 
-.popup__close-button {
+.popup__close-button:focus {
     transition: opacity .6s ease-in;
 }
 

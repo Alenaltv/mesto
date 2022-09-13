@@ -11,7 +11,7 @@
     padding: 0;
     align-self: flex-end;
     margin: 15px 0 34px 18px;
-    align-self: center;
+    /*align-self: center;*/
     transition: opacity .3s ease-in;
     cursor: pointer;
 }
